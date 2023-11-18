@@ -1,1 +1,2 @@
+Hello world!
 MY first study session in GDSC.
