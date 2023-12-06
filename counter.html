@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Counter</title>
+    <style>
+      #counter {
+        max-width: 200px;
+        padding: 20px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .btn {
+        width: 80px;
+        height: 40px;
+        margin: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        background-color: #f2f2f2;
+        cursor: pointer;
+      }
+    </style>
+    <script src="counter.js"></script>
+  </head>
+  <body>
+    <div id="counter">
+      <h2>Counter</h2>
+      <p id="count-display">0</p>
+      <button class="btn" onclick="increment()">Increment</button>
+      <button class="btn" onclick="decrement()">Decrement</button>
+    </div>
+  </body>
+</html>
