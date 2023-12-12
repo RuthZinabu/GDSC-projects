@@ -1,6 +1,7 @@
+import ("./math.js");
 function calculate() {
-    var input = document.getElementById("input").value;
-    var result = eval(input);
+    let input = document.getElementById("input").value;
+    let result = eval(input);
     document.getElementById("input").value = result;
   }
 
@@ -9,6 +10,6 @@ function calculate() {
   }
 
   function deleteLastCharacter() {
-    var input = document.getElementById("input").value;
+    let input = document.getElementById("input").value;
     document.getElementById("input").value = input.slice(0, -1);
-  }
+  } 
