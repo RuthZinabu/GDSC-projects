@@ -20,6 +20,7 @@ const TodoList = () => {
       )
     );
   };
+  
   const editTask = (taskId, newText) => {
     setTasks(
       tasks.map((task) =>
